@@ -4,7 +4,7 @@ val logback_version: String by project
 plugins {
     kotlin("jvm") version "2.1.10"
     id("io.ktor.plugin") version "3.2.0"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.23" // Must match Kotlin version
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.23"
 }
 
 group = "com.role"
